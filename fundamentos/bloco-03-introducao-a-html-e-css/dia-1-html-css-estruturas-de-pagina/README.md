@@ -2,7 +2,7 @@
 
 O objetivo dos exercícios desse dia foi iniciar o aprendizado à linguagem de marcação HTML e introduzir algumas tags básicas. 
 
-O arquivo "exercicio-01" consiste em um exercício com os seguintes objetivos:
+O arquivo "exercicio-01" consiste em um exercício com os seguintes requisitos:
 
 1. Criar uma lista de pessoa que já fiz amizade na Trybe
 

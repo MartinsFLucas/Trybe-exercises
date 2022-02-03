@@ -1,7 +1,7 @@
 # DIA 02
 O objetivo dos exercícios desse dia foi fixar os primeiros conceitos de CSS, como estilização por tag, id ou por classe.
 
-O exercício tem os seguintes objetivos:
+O exercício tem os seguintes requisitos:
 
 1 - Modifique o tamanho do h1 para 65 pixels
 
