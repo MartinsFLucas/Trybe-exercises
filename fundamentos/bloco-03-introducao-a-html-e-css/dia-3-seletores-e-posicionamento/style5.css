@@ -44,3 +44,28 @@ li em {
 li.java {
     background-color: pink;
 }
+
+#website-list li:nth-of-type(1) a:hover {
+    font-weight: bold;
+    color: orange;
+}
+
+#website-list li:nth-of-type(2) a:hover {
+    font-weight: bold;
+    color: green;
+}
+
+#website-list li:nth-of-type(3) a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+#website-list li:nth-of-type(4) a:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+#website-list li:nth-of-type(5) a:hover {
+    font-weight: bold;
+    color: green;
+}
