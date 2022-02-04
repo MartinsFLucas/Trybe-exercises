@@ -36,3 +36,11 @@ li {
 li em {
   font-weight: bold;
 }
+
+#programming-languages li:not(:nth-of-type(n+4)){
+  color: blue;
+}
+
+li.java {
+    background-color: pink;
+}
