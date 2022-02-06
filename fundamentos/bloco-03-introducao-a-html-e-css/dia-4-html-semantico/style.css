@@ -29,3 +29,8 @@ h1 {
     width: 300px;
     display: inline-block;
   }
+
+  .prizes li{
+      display: inline;
+      text-align: justify;
+  }
