@@ -6,12 +6,38 @@ header {
     background-color: #84C0C6;
 }
 
-nav ul {
+#nav-menu ul {
     padding-left: 5px;
 }
-nav ul li {
+
+#nav-menu ul li {
     display: inline-block;
     margin-right: 100px;
     padding-bottom: 5px;
 }
 
+#holding-stomatopoda {
+    width: 300px;
+    margin-left: 10px;
+}
+
+#interesting img {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+table, tr, th, td{
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#interesting h4 {
+    margin-left: 10px;
+}
+
+#references h4, #references ul {
+    margin-left:    ;
+}
