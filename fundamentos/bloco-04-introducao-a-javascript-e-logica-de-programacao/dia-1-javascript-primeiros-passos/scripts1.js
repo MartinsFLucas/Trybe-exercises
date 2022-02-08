@@ -9,3 +9,8 @@ console.log(birthYear);
 birthYear = 2030;
 
 console.log(birthYear);
+
+birthCity = "Townsville";
+
+console.log(birthCity);
+/* O erro acontece porque não podemos alterar o valor atribuído para uma constante */
