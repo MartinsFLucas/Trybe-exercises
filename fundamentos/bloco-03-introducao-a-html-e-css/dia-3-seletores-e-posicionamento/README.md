@@ -14,6 +14,7 @@ Os requisitos do exercício contidos nos arquivos index2.html/style2.css são:
     3 - Posicione o balão para que se torne uma fala de Bowser.
 
 Os requisitos do exercício contidos nos arquivos index3.html/style3.css são:
+
     1 - Adicione uma lista ordenada dos 3 melhores sites que você conhece.
     2 - Crie um arquivo no mesmo diretório e nomeie-o de 'style.css'.
     3 - Nesse arquivo .css, adicione os estilos para que:
