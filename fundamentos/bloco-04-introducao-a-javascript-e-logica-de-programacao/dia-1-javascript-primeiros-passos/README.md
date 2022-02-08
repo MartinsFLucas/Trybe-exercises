@@ -2,7 +2,7 @@
 
 Os objetivos dos exercícios desse dia foi colocar em prática o que aprendi sobre variáveis, constantes e tipos primitivos. Utilizar conceitos como tipagem dinâmica e operadores lógicos/aritméticos/de atribuição e utilizar estruturas condicionais.
 
-Os requisitos do exercícios são:
+Os requisitos do exercício contido no arquivo scripts1.js são:
 
     1 - Crie uma constante chamada myName e atribua a ela o seu nome (Exemplo: Carolina).
     2 - Crie uma constante chamada birthCity e atribua a ela a sua cidade natal.
