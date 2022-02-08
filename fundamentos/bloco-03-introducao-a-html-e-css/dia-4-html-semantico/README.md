@@ -2,9 +2,11 @@
 O objetivos dos exercícios desse dia foi colocar em prática o aprendizado a respeito do conteúdo de HTML semântico, fazendo uso de elementos HTML de acordo com o sentido que eles carregam para criar páginas semânticamente válidas e acessíveis.
 
 Os requisitos do exercício contido nos arquivos index.html/style.css são:
+
     1 - Dado um arquivo html predeterminado, implemente as propriedades CSS, e se necessário faça adições à estrutura HTML(mantendo a estrutura da página), para que o resultado final seja similar à [imagem](https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/fundamentals/html-css/images/podium-final-fdcdc425aade8216b9e3c4b0eab234fc.png).
 
 Os requisitos do exercício contido nos arquivos index2.html/style2.css são:
+
     1 - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
     2 - Adicione um conjunto de links que representam a área de navegação do site.
     Crie um link chamado Página Inicial.
