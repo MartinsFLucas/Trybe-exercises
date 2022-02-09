@@ -40,8 +40,13 @@ Os requisitos do exercício contido no arquivo scripts4.js são:
     4 - Agora imprima a variável message fora das suas condições.
 
 
-Os requisitos do exercício contido no arquivo scripts4.js são:
+Os requisitos do exercício contido no arquivo scripts5.js são:
     1 - Crie uma variável chamada "weekDay" que recebe a string "quarta-feira".
     2 - Implemente condicionais para que:
         - Se nossa variável "weekDay" for "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira" ou "sexta-feira", imprima "Oba, mais um dia de aprendizado na Trybe >:D".
         - Se for algum dia de fim de semana, imprima "FINALMENTE, descanso merecido UwU".
+
+Os requisitos do exercício contido no arquivo scripts6.js são:
+
+    1 - Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: 'aprovada' , 'lista' ou 'reprovada' ;
+    2 - Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada' , 'lista' ou 'reprovada' . Como default , imprima a mensagem de 'não se aplica' .
