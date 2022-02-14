@@ -53,7 +53,7 @@ Os requisitos do exercício contido no arquivo scripts6.js são:
     2 - Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada' , 'lista' ou 'reprovada' . Como default , imprima a mensagem de 'não se aplica' .
 
 
-Os requisitos do exercício contido no arquivo scripts7.js são:
+Os requisitos do exercício contido no arquivo scripts7.js são (para verificar um exercício, deixe somente o código referente a ele "descomentado"):
 
     1 - Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b , definidas no começo com os valores que serão operados. Faça programas para:
         Adição (a + b)

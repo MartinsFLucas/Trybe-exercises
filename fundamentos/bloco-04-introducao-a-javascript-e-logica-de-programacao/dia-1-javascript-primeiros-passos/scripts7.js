@@ -119,7 +119,7 @@ switch (lc_piece) {
 
 //----------------Exercise 07------------------------
 
-let score = 102;
+/* let score = 102;
 let convertedScore;
 
 if (score >= 90 && score <= 100) {
@@ -138,5 +138,16 @@ if (score >= 90 && score <= 100) {
     convertedScore = 'Invalid Score';
 }
 
-console.log(convertedScore);
+console.log(convertedScore); */
 
+//----------------Exercise 08------------------------
+
+const num1 = 7;
+const num2 = 13;
+const num3 = 4;
+
+if (num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
