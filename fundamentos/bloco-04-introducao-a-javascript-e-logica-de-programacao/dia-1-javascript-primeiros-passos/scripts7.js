@@ -70,7 +70,7 @@ if (a > 0) {
 
 //----------------Exercise 05------------------------
 
-const angle1 = 20;
+/* const angle1 = 20;
 const angle2 = 100;
 const angle3 = 80;
 
@@ -81,5 +81,39 @@ if ((typeof (angle1) != 'number'|| angle1 < 0) || (typeof (angle2) != 'number' |
     console.log("ângulo inválido");
 } else {
     console.log(triangulo);
-}
+} */
+
+//----------------Exercise 06------------------------
+/* 
+let piece = "Queen";
+let lc_piece = piece.toLowerCase();
+
+switch (lc_piece) {
+    case "pawn":
+        console.log("pawn -> foward");
+        break;
+
+    case "bishop":
+        console.log("bishop -> diagonals");
+        break;
+
+    case "knight":
+        console.log("knight -> 'L-shape'");
+        break;
+
+    case "rook":
+        console.log("rook -> horizontally or vertically");
+        break;
+
+    case "queen":
+        console.log("queen -> horizontally, vertically or diagonally");
+        break;
+
+    case "king":
+        console.log("king -> any direction (1 square only)");
+        break;
+    
+    default:
+        console.log("That's not a chess piece");
+} */
 
