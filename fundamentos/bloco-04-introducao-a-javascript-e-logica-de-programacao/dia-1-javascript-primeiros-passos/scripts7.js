@@ -166,7 +166,7 @@ if (num1 % 2 !== 0 || num2 % 2 !== 0 || num3 % 2 !== 0) {
 
 //----------------Exercise 10------------------------
 
-const valorCusto = 100;
+/* const valorCusto = 100;
 const valorVenda = 150;
 
 let valorCustoTotal = valorCusto * 1.2;
@@ -175,4 +175,42 @@ let lucroTotal = lucro * 1000;
 
 console.log(valorCustoTotal);
 console.log(lucro);
-console.log(lucroTotal);
+console.log(lucroTotal); */
+
+//----------------Exercise 11------------------------
+
+const salarioBruto = 3000;
+let desconto_inss, desconto_ir, salarioBase, salarioLiquido;
+
+if (salarioBruto < 0) {
+    console.log("Salário inválido")
+} else {
+    if (salarioBruto <= 1556.94) {
+        desconto_inss = 0.08 * salarioBruto;
+    } else if (salarioBruto <= 2594.92) {
+        desconto_inss = 0.09 * salarioBruto;
+    } else if (salarioBruto <= 5189.82) {
+        desconto_inss = 0.11 * salarioBruto;
+    } else {
+        desconto_inss = salarioBruto - 570.88;
+    }
+
+    salarioBase = salarioBruto - desconto_inss;
+
+    if (salarioBase <= 1903.98) {
+        desconto_ir = 0;
+    } else if (salarioBase <= 2826.65) {
+        desconto_ir = (0.075 * salarioBase) - 142.80;
+    } else if (salarioBase <= 3751.05) {
+        desconto_ir = (0.15 * salarioBase) - 354.80;
+    } else if (salarioBase <= 4664.68) {
+        desconto_ir = (0.225 * salarioBase) - 636.13;
+    } else {
+        desconto_ir = (0.275 * salarioBase) - 869.36;
+    }
+
+    salarioLiquido = salarioBase - desconto_ir;
+
+    console.log("O salário líquido é de R$", salarioLiquido);
+
+}
