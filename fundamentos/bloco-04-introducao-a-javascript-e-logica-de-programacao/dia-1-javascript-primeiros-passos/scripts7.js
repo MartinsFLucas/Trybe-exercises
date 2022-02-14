@@ -58,7 +58,7 @@ console.log(largest); */
 
 //----------------Exercise 04------------------------
 
-const a = 2;
+/* const a = 2;
 
 if (a > 0) {
     console.log("Positive");
@@ -66,4 +66,20 @@ if (a > 0) {
     console.log("Negative");
 } else {
     console.log("Zero");
+} */
+
+//----------------Exercise 05------------------------
+
+const angle1 = 20;
+const angle2 = 100;
+const angle3 = 80;
+
+let somaAngulos = angle1 + angle2 + angle3;
+let triangulo = somaAngulos === 180;
+
+if ((typeof (angle1) != 'number'|| angle1 < 0) || (typeof (angle2) != 'number' || angle2 < 0) || (typeof (angle3) != 'number' || angle3 < 0)) { // Verifica se os ângulos não são números ou são menores do que zero
+    console.log("ângulo inválido");
+} else {
+    console.log(triangulo);
 }
+
