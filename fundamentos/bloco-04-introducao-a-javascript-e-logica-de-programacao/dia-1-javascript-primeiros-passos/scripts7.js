@@ -90,7 +90,7 @@ let lc_piece = piece.toLowerCase();
 
 switch (lc_piece) {
     case "pawn":
-        console.log("pawn -> foward");
+        console.log("pawn -> foward (1 square only, unless it's it first move");
         break;
 
     case "bishop":
@@ -116,4 +116,27 @@ switch (lc_piece) {
     default:
         console.log("That's not a chess piece");
 } */
+
+//----------------Exercise 07------------------------
+
+let score = 102;
+let convertedScore;
+
+if (score >= 90 && score <= 100) {
+    convertedScore = 'A';
+} else if (score >= 80 && score < 90) {
+    convertedScore = 'B';
+} else if (score >= 70 && score < 80) {
+    convertedScore = 'C';
+} else if (score >= 60 && score < 70) {
+    convertedScore = 'D';
+} else if (score >= 50 && score < 60) {
+    convertedScore = 'E';
+} else if (score < 50 && score > 0) {
+    convertedScore = 'F';
+} else {
+    convertedScore = 'Invalid Score';
+}
+
+console.log(convertedScore);
 
