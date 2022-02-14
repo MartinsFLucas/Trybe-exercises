@@ -1,5 +1,5 @@
-/* //----------------Exercise 01------------------------
-const a = 4;
+//----------------Exercise 01------------------------
+/* const a = 4;
 const b = 2;
 
 // Addition
@@ -17,8 +17,9 @@ console.log(a/b);
 // Modulus
 console.log(a%b); */
 
-/* //----------------Exercise 02------------------------
-const num1 = 15;
+//----------------Exercise 02------------------------
+
+/* const num1 = 15;
 const num2 = 12;
 
 let max;
@@ -35,7 +36,7 @@ console.log(max); */
 
 //----------------Exercise 03------------------------
 
-const n1 = 8;
+/* const n1 = 8;
 const n2 = 8;
 const n3 = 8;
 
@@ -53,4 +54,16 @@ if (largest < n3) {
     largest = 'Os números são iguais';
 }
 
-console.log(largest);
+console.log(largest); */
+
+//----------------Exercise 04------------------------
+
+const a = 2;
+
+if (a > 0) {
+    console.log("Positive");
+} else if (a < 0) {
+    console.log("Negative");
+} else {
+    console.log("Zero");
+}
