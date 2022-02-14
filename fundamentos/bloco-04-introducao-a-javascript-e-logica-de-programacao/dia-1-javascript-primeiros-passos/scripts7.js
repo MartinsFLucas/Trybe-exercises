@@ -35,5 +35,22 @@ console.log(max); */
 
 //----------------Exercise 03------------------------
 
+const n1 = 8;
+const n2 = 8;
+const n3 = 8;
 
+let largest;
 
+if (n1 > n2) {
+    largest = n1;
+} else {
+    largest = n2;
+}
+
+if (largest < n3) {
+    largest = n3;
+} else if (n1 == n2 && n2 == n3) {
+    largest = 'Os números são iguais';
+}
+
+console.log(largest);
