@@ -71,13 +71,13 @@ if (a > 0) {
 //----------------Exercise 05------------------------
 
 /* const angle1 = 20;
-const angle2 = 100;
+const angle2 = 80;
 const angle3 = 80;
 
 let somaAngulos = angle1 + angle2 + angle3;
 let triangulo = somaAngulos === 180;
 
-if ((typeof (angle1) != 'number'|| angle1 < 0) || (typeof (angle2) != 'number' || angle2 < 0) || (typeof (angle3) != 'number' || angle3 < 0)) { // Verifica se os ângulos não são números ou são menores do que zero
+if ((typeof (angle1) !== 'number'|| angle1 < 0) || (typeof (angle2) !== 'number' || angle2 < 0) || (typeof (angle3) !== 'number' || angle3 < 0)) { // Verifica se os ângulos não são números ou são menores do que zero
     console.log("ângulo inválido");
 } else {
     console.log(triangulo);
@@ -142,7 +142,7 @@ console.log(convertedScore); */
 
 //----------------Exercise 08------------------------
 
-const num1 = 7;
+/* const num1 = 7;
 const num2 = 13;
 const num3 = 4;
 
@@ -150,4 +150,29 @@ if (num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0) {
     console.log(true);
 } else {
     console.log(false);
-}
+} */
+
+//----------------Exercise 09------------------------
+
+/* const num1 = 6;
+const num2 = 12;
+const num3 = 3;
+
+if (num1 % 2 !== 0 || num2 % 2 !== 0 || num3 % 2 !== 0) {
+    console.log(true);
+} else {
+    console.log(false);
+} */
+
+//----------------Exercise 10------------------------
+
+const valorCusto = 100;
+const valorVenda = 150;
+
+let valorCustoTotal = valorCusto * 1.2;
+let lucro = valorVenda - valorCustoTotal;
+let lucroTotal = lucro * 1000;
+
+console.log(valorCustoTotal);
+console.log(lucro);
+console.log(lucroTotal);
