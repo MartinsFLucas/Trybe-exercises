@@ -212,5 +212,4 @@ if (salarioBruto < 0) {
     salarioLiquido = salarioBase - desconto_ir;
 
     console.log("O salário líquido é de R$", salarioLiquido);
-
 }
