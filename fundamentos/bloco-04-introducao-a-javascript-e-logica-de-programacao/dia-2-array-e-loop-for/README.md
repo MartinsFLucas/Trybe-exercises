@@ -25,3 +25,8 @@ Os requisitos dos exercícios contidos no arquivo scripts.js são:
 
         console.log(menu);
         ```
+
+    4 - Utilize o for para imprimir os elementos da lista groceryList com o console.log() :
+        ```
+        let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+        ```

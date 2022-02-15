@@ -15,8 +15,16 @@ console.log(indexOfPortfolio); */
 
 // -----------------Exercício 3-----------------
 
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+/* let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
 menu.push('Contato');
 
-console.log(menu);
+console.log(menu); */
+
+// -----------------Exercício 3-----------------
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (let index = 0; index < groceryList.length; index += 1) {
+    console.log(groceryList[index]);
+}
