@@ -30,3 +30,8 @@ Os requisitos dos exercícios contidos no arquivo scripts.js são:
         ```
         let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
         ```
+
+    5 - Utilize o for/of para imprimir os elementos da lista names com o console.log() :
+        ```
+        let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+        ```
