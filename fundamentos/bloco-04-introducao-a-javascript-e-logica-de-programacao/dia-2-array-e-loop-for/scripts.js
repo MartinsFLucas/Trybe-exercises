@@ -39,8 +39,19 @@ for (let element of names) {
 
 // -----------------Exercício 6-----------------
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 for (let index = 0; index < numbers.length; index += 1) {
   console.log(numbers[index]);
+} */
+
+// -----------------Exercício 7-----------------
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let sum = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  sum += numbers[index];
 }
+
+console.log(sum);
