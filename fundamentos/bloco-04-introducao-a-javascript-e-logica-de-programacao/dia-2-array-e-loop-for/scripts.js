@@ -116,7 +116,7 @@ console.log(countOdd); */
 
 // -----------------Exercício 12-----------------
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let smallest = numbers[0];
 
 for (let index = 1; index < numbers.length; index += 1) {
@@ -126,4 +126,20 @@ for (let index = 1; index < numbers.length; index += 1) {
 }
 
 console.log(smallest);
+ */
 
+// -----------------Exercício 13-----------------
+
+let myArray = [];
+
+for (let index = 0; index < 25; index += 1) {
+  myArray.push(index + 1);
+}
+
+/* console.log(myArray); */
+
+// -----------------Exercício 14-----------------
+
+for (let index = 0; index < myArray.length; index += 1) {
+  console.log(myArray[index] / 2);
+}
