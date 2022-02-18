@@ -34,7 +34,7 @@ let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 ```
 
-_PARA OS EXERCÍCOS DO 6 AO 12 E DO 15 AO 17 IREMOS UTILIZAR O SEGUINTE ARRAY:_
+__PARA OS EXERCÍCOS DO 6 AO 12 E DO 15 AO 17 IREMOS UTILIZAR O SEGUINTE ARRAY:__
 ```
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 ```
