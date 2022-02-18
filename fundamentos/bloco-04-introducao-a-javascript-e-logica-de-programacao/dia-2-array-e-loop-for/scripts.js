@@ -130,16 +130,39 @@ console.log(smallest);
 
 // -----------------Exercício 13-----------------
 
-let myArray = [];
+/* let myArray = [];
 
 for (let index = 0; index < 25; index += 1) {
   myArray.push(index + 1);
 }
 
-/* console.log(myArray); */
+console.log(myArray); */
 
 // -----------------Exercício 14-----------------
+
+/* let myArray = [];
+
+for (let index = 0; index < 25; index += 1) {
+  myArray.push(index + 1);
+}
 
 for (let index = 0; index < myArray.length; index += 1) {
   console.log(myArray[index] / 2);
 }
+ */
+
+// -----------------Exercício 15-----------------
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 0; index < numbers.length - 1; index += 1) {
+  for (let index2 = 0; index2 < (numbers.length - index - 1); index2 += 1) {
+    if (numbers[index2 + 1] < numbers[index2]) {
+      let aux = numbers[index2 + 1];
+      numbers[index2 + 1] = numbers[index2]
+      numbers[index2] = aux;
+    }
+  }
+}
+
+console.log(numbers);
