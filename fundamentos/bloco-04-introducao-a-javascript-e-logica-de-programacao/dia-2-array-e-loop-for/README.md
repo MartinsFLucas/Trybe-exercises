@@ -5,11 +5,17 @@ O objetivo dos exercícios desse dia foi colocar em prática o que aprendi sobre
 Os requisitos dos exercícios contidos no arquivo scripts.js são:
 
 1 - Obter o valor "Serviços" do array menu:
-    ```
-    let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-    let menuServices = ;
-    console.log(menuServices);
-    ```
+```
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+let menuServices = ;
+console.log(menuServices);
+```
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
 
 2 - Procure o índice do valor "Portfólio" do array menu :
     ```
