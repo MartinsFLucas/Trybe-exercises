@@ -64,7 +64,7 @@ console.log(largestPrimeNumber); */
 
 //---------------Exercício 05----------------
 
-let n = 3;
+/* let n = 3;
 line = '';
 
 for (let index = 0; index < n; index += 1) {
@@ -72,5 +72,15 @@ for (let index = 0; index < n; index += 1) {
 }
 
 for (let index = 0; index < n; index += 1) {
+    console.log(line);
+} */
+
+//---------------Exercício 05----------------
+
+let n = 8;
+line = '';
+
+for (let index = 0; index < n; index += 1) {
+    line += '*'
     console.log(line);
 }
