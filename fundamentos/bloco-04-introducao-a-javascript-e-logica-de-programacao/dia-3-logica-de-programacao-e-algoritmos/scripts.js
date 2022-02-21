@@ -61,3 +61,16 @@ for (let number = 0; number <= 50; number += 1) {
 }
 
 console.log(largestPrimeNumber); */
+
+//---------------Exercício 05----------------
+
+let n = 3;
+line = '';
+
+for (let index = 0; index < n; index += 1) {
+    line += '*'
+}
+
+for (let index = 0; index < n; index += 1) {
+    console.log(line);
+}
