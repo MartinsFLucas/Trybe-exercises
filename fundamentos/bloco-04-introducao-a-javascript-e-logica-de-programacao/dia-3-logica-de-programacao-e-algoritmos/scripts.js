@@ -65,7 +65,7 @@ console.log(largestPrimeNumber); */
 //---------------Exercício 05----------------
 
 /* let n = 3;
-line = '';
+let line = '';
 
 for (let index = 0; index < n; index += 1) {
     line += '*'
@@ -75,12 +75,36 @@ for (let index = 0; index < n; index += 1) {
     console.log(line);
 } */
 
-//---------------Exercício 05----------------
+//---------------Exercício 06----------------
 
-let n = 8;
-line = '';
+/* let n = 8;
+let line = '';
 
 for (let index = 0; index < n; index += 1) {
     line += '*'
     console.log(line);
-}
+} */
+
+//---------------Exercício 07----------------
+
+/* let n = 6;
+let blankSpace = ' ';
+let filledSpace = '*';
+let line = '';
+
+for (let index = 1; index <= n; index += 1) {
+    line = '';
+    for (let index2 = 0; index2 < n; index2 += 1) {
+        if (index2 < n-index) {
+            line += blankSpace;
+        } else {
+            line += filledSpace;
+        }
+    }
+    console.log(line);
+}  */
+
+//---------------Exercício 08----------------
+
+
+
