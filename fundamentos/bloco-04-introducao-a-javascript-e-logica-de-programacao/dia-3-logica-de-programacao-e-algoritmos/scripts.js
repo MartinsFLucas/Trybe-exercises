@@ -22,7 +22,7 @@ console.log(reversedWord); */
 
 //---------------Exercício 03----------------
 
-let array = ['java', 'javascript', 'python', 'html', 'css'];
+/* let array = ['java', 'javascript', 'python', 'html', 'css'];
 let largestWord = '';
 let smallestWord = '';
 
@@ -40,7 +40,24 @@ for (let index = 0; index < array.length; index += 1) {
     }
 }
 
-console.log('A menor palavra é: ', smallestWord);
+console.log('A menor palavra é: ', smallestWord); */
 
+//---------------Exercício 04----------------
 
+/* let largestPrimeNumber;
 
+for (let number = 0; number <= 50; number += 1) {
+    if (number >= 2) {
+        let divisorCount = 0
+        for (let divisor = 1; divisor <= number; divisor += 1) {
+            if (number % divisor === 0) {
+                divisorCount += 1;
+            }
+        }
+        if (divisorCount === 2) {
+            largestPrimeNumber = number;
+        }
+    }
+}
+
+console.log(largestPrimeNumber); */
