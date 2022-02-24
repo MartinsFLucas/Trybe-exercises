@@ -106,5 +106,30 @@ for (let index = 1; index <= n; index += 1) {
 
 //---------------Exercício 08----------------
 
+let n = 5;
+let blankSpace = ' ';
+let filledSpace = '*';
+let line = '';
+let filledSpaceCount = 0;
+let filledSpaceMax = 1;
+
+for (let index = 0; index < (n/2)+1; index += 1) {
+    line = '';
+    filledSpaceCount = 0;
+    for (let index2 = 0; index2 < n; index2 += 1) {
+        if (index2 < ((n-filledSpaceMax)/2) || filledSpaceCount === filledSpaceMax) {
+            line += blankSpace;
+        } else {
+            filledSpaceCount += 1;
+            line += filledSpace;
+        }
+    }  
+    console.log(line);
+    if (filledSpaceMax === n) {
+        break;
+    }
+    filledSpaceMax += 2;
+} 
+
 
 
