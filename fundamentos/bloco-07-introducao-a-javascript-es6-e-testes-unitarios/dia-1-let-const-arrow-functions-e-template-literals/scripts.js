@@ -63,3 +63,18 @@ console.log(fatorial(5)); */
 /* const fatorial = numero => numero != 1 ? numero * fatorial(numero - 1) : 1
 
 console.log(fatorial(10)); */
+
+//-------------------- Exercício 4 --------------------
+
+/* const frase = 'Antônio foi no banheiro e não sabemos o que aconteceu';
+
+const maiorPalavra = texto => {
+    let textoSeparado = texto.split(' ');
+    let maior = textoSeparado[0];
+    for (let index = 1; index < textoSeparado.length; index += 1) {
+        if (textoSeparado[index].length > maior.length) maior = textoSeparado[index];
+    }
+    return maior;
+}
+
+console.log(maiorPalavra(frase)); */
