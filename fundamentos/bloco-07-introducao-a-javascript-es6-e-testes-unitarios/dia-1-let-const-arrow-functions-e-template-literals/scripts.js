@@ -46,3 +46,20 @@ console.log(`Os números ${ordenarArray(oddsAndEvens)} se encontram ordenados de
 
 //-------------------- Exercício 3 --------------------
 
+//função não-recursiva
+
+/* function fatorial(numero) {
+    let fat = 1;
+    for (numero; numero > 1; numero -= 1) {
+        fat *= numero;
+    }
+    return fat;
+}
+
+console.log(fatorial(5)); */
+
+//função recursiva;
+
+/* const fatorial = numero => numero != 1 ? numero * fatorial(numero - 1) : 1
+
+console.log(fatorial(10)); */
