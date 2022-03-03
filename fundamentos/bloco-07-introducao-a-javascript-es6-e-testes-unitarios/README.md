@@ -1,0 +1,3 @@
+# BLOCO 07 - INTRODUÇÃO A JAVASCRIPT ES6  E TESTES UNITÁRIOS
+
+Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Neste bloco aprendi sobre a mais nova versão do JavaScript, conhecida como ES6. Além disso, aprendi a importância de testar minhas aplicações e programar orientado a testes. Aprendi também a como utilizar a biblioteca Jest para criar os meus testes.  
