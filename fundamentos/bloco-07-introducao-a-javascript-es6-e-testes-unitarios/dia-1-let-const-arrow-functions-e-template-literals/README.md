@@ -31,7 +31,11 @@ Os requisitos dos exercícios contidos no arquivo scripts.js são:
     ```
     const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-      // Seu código aqui.
+    // Seu código aqui.
 
-      console.log(oddsAndEvens); // será necessário alterar essa linha 😉
+    console.log(oddsAndEvens); // será necessário alterar essa linha 😉
     ```
+
+3. Crie uma função que receba um número e retorne seu fatorial.
+    - Na matemática, o fatorial de um número não negativo N , com a notação N! , é o produto de todos os inteiros menores ou iguais a N . Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
+    - Bônus (opcional): tente fazer o mesmo exercício de forma recursiva.
