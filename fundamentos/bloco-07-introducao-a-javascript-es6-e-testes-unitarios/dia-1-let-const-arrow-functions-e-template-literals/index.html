@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="click-button">Clique aqui</button>
+    <p id="text"></p>
+    <script>
+      const clickButton = document.getElementById("click-button");
+      const text = document.getElementById("text");
+      let clicks = 0;
+
+      const countClicks = () => {
+        clicks += 1;
+        text.innerText = `O botão foi clicado ${clicks} vezes!`;
+      }
+
+      clickButton.addEventListener("click", countClicks);
+    </script>
+  </body>
+</html>
