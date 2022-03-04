@@ -78,3 +78,27 @@ const maiorPalavra = texto => {
 }
 
 console.log(maiorPalavra(frase)); */
+
+//-------------------- Exercício 6 --------------------
+
+const phrase = 'Tryber x aqui!';
+const skills = ['HTML', 'CSS', 'JavaScript', 'DOM', 'Git e GitHub']
+
+const replaceX = str => phrase.replace('x', str);
+
+const concatenate = str => {
+    let sortedArray = skills.sort();
+    
+    result = `${str} 
+    
+    Minhas cinco principais habilidades são:`;
+    
+    skills.forEach((skill) =>
+    result = `${result}
+
+    - ${skill}`);
+    
+    return result;
+}
+
+console.log(concatenate(replaceX('teste')));
