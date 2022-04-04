@@ -2,6 +2,8 @@
 
 O objetivo dos exercícios desse dia foi aplicar os primeiros conceitos sobre React e entender melhor o que diferencia React de JavaScript, além de ver um pouco sobre classes.
 
+Os requisitos dos exercícios contidos no projeto-01 são:
+
 1. Crie um novo projeto utilizando npx create-react-app project-01 e acesse a pasta project-01
 
 2. Crie uma lista de tarefas simples seguindo os passos abaixo:
@@ -16,3 +18,5 @@ O objetivo dos exercícios desse dia foi aplicar os primeiros conceitos sobre Re
     - agora, chame a função dentro do seu componente App (não se esqueça da sintaxe JSX!). Insira o valor que você quiser, salve a página e inicie-a rodando o comando npm start.
 
     - por fim, crie uma array de compromissos e use a função map para que cada item do array apareça, como um item de lista, no seu componente App.
+
+Os requisitos dos exercícios contidos no projeto-02 são:
