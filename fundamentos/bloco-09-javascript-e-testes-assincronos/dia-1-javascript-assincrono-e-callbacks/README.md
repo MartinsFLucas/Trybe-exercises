@@ -2,4 +2,73 @@
 
 O objetivo desse dia foi colocar em prática o que aprendi sobre operações assíncronas, callbacks, como utilizar o Jest para testar minhas callbacks e também como reaproveitar configurações para diversos testes utilizando beforeEach e afterEach.
 
-Os requisitos dos exercícios contidos no arquivo script.js são: 
+Os requisitos dos exercícios contidos no arquivo answers.js são: 
+
+1. Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+
+  ```
+  const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
+    `${name} is ${value} ${measurementUnit} apart from the Sun`;
+
+  const mars = {
+    name: "Mars",
+    distanceFromSun: {
+      value: 227900000,
+      measurementUnit: "kilometers",
+    },
+  };
+
+  const venus = {
+    name: "Venus",
+    distanceFromSun: {
+      value: 108200000,
+      measurementUnit: "kilometers",
+    },
+  };
+
+  const jupiter = {
+    name: "Jupiter",
+    distanceFromSun: {
+      value: 778500000,
+      measurementUnit: "kilometers",
+    },
+  };
+
+  console.log(planetDistanceFromSun(mars)); // A
+  console.log(planetDistanceFromSun(venus)); // B
+  console.log(planetDistanceFromSun(jupiter)); // C
+  ```
+
+2. Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+```
+const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
+  `${name} is ${value} ${measurementUnit} apart from the Sun`;
+
+const mars = {
+  name: "Mars",
+  distanceFromSun: {
+    value: 227900000,
+    measurementUnit: "kilometers",
+  },
+};
+
+const venus = {
+  name: "Venus",
+  distanceFromSun: {
+    value: 108200000,
+    measurementUnit: "kilometers",
+  },
+};
+
+const jupiter = {
+  name: "Jupiter",
+  distanceFromSun: {
+    value: 778500000,
+    measurementUnit: "kilometers",
+  },
+};
+
+console.log(planetDistanceFromSun(mars)); // A
+setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
+setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
+```
