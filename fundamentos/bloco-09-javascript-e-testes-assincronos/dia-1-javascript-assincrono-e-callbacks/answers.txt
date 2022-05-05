@@ -1,0 +1,5 @@
+Respostas das questões 1 e 2:
+
+1: A ordem de finalização de execução seria: A -> B -> C;
+
+2: A ordem de finalização de execução seria: A -> C -> B;
