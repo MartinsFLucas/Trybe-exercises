@@ -21,7 +21,7 @@ Os requisitos dos exercícios contidos no projeto-01 são:
 
 Os requisitos dos exercícios contidos no projeto-02 são:
 
-1. Crie um novo projeto utilizando npx create-react-app.
+3. Crie um novo projeto utilizando npx create-react-app.
 
    - Na pasta src, crie um novo arquivo chamado Header.jsx , que representará o componente Header;
 
@@ -34,3 +34,45 @@ Os requisitos dos exercícios contidos no projeto-02 são:
 
    - Dentro do arquivo Content.jsx , crie uma classe React chamada Content ;
     Ainda no arquivo Content.jsx , adicione o seguinte array:
+    ```
+        const conteudos = [
+    {
+        conteudo: 'High Order Functions',
+        bloco: 8,
+        status: 'Aprendido'
+    },
+    {
+        conteudo: 'Composicao de Componentes',
+        bloco: 11,
+        status: 'Aprendendo',
+    },
+    {
+        conteudo: 'Composicao de Estados',
+        bloco: 12,
+        status: 'Aprenderei'
+    },
+    {
+        conteudo: 'Redux',
+        bloco: 16,
+        status: 'Aprenderei'
+    },
+    ];    
+    ```
+    - A classe Content deve renderizar o array conteudos com a utilização da função map, como visto anteriormente, com o seguinte formato:
+    ```
+    O conteúdo é: `Nome do Conteúdo`
+    Status: `Status do Conteúdo`
+    Bloco: `Bloco do Conteúdo`
+    ```
+    Lembre-se de adicionar o atributo 'key' ao elemento pai dessa lista, na renderização.
+    - Exporte o componente Content;
+    - No arquivo App.js, importe o componente Content criado anteriormente;
+    - Renderize o componente Content no App.js;
+    - Crie um novo arquivo Footer.jsx;
+    - No arquivo Footer.jsx, crie uma classe chamada Footer.
+    - A classe Footer deve renderizar uma tag h1 com o texto "E isso é só o começo...". Não esqueça de exportar o componente criado.
+    - Importe o componente Footer no app.js;
+    - Renderize o componente Footer no app.js.
+
+4. Estilize a aplicação do exercicio 3. Para isso, adicione classes para estilização dos seus componentes de forma que cada conteúdo listado seja um Card.
+Para adicionar uma classe de estilização em um elemento HTML, utilize o atributo className:

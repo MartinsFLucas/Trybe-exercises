@@ -1,19 +1,15 @@
-import './App.css';
-
 const Task = (value) => {
   return (
       <li>{value}</li>
   );
   }
 
-const companiesArray = ['Google', 'Amazon', 'Facebook', 'Microsoft'];
-
-const companiesList = (array) => array.map((element) => Task(element));
+const compromissos = ['Trabalho', 'Faculdade', 'Academia', 'Reunião'];
 
 function App() {
   return (
-    companiesList(companiesArray)
-  );
+    compromissos.map((tarefa) => Task(tarefa))
+  )
 }
 
 export default App;
