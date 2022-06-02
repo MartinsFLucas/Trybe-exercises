@@ -1,0 +1,18 @@
+.pokemon-card {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 10px;
+  min-width: 30%;
+  flex: 1 1 0;
+  align-items: center;
+}
+
+.pokemon-card img {
+  width: 100px;
+}
+
+.pokemon-card p {
+  font-family: Arial, Helvetica, sans-serif;
+}
